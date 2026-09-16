@@ -180,7 +180,7 @@ export default function Home() {
       {/* الخلفية: سديم ثابت + نجوم ثلاثية الأبعاد (أو بديل متكرر) */}
       <div
         className="pointer-events-none fixed inset-0 z-[1] bg-cover bg-center brightness-50"
-        style={{ backgroundImage: 'url(/menu-hero-bg.png)' }}
+        style={{ backgroundImage: 'url(/menu-hero-bg.svg)' }}
         aria-hidden="true"
       />
       {webgl ? (
