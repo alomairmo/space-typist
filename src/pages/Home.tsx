@@ -220,7 +220,7 @@ export default function Home() {
                     }}
                   >
                     {word}
-                    {i < titleWords.length - 1 ? ' ' : ''}
+                    {i < titleWords.length - 1 ? ' ' : ''}
                   </motion.span>
                 ))}
               </h1>
