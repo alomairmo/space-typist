@@ -1,1 +1,0 @@
-A' : ''}B{i < titleWords.length - 1 ? ' ' : ''}C
