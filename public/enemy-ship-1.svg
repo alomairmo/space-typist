@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <filter id="glow1" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="g"/>
+      <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- retro arcade alien, magenta neon, angular pixel-inspired, symmetrical -->
+  <g filter="url(#glow1)">
+    <path d="M64 22 L78 34 L78 46 L98 46 L98 62 L110 62 L110 86 L98 86 L98 74 L86 74 L86 90 L74 90 L74 102 L54 102 L54 90 L42 90 L42 74 L30 74 L30 86 L18 86 L18 62 L30 62 L30 46 L50 46 L50 34 Z"
+          fill="#0A0F1E" stroke="#E879F9" stroke-width="4" stroke-linejoin="round"/>
+    <!-- glowing cockpit -->
+    <rect x="54" y="52" width="20" height="14" rx="3" fill="#E879F9"/>
+    <rect x="58" y="55" width="12" height="8" rx="2" fill="#F5D0FE"/>
+    <!-- eyes -->
+    <rect x="38" y="54" width="8" height="8" fill="#E879F9"/>
+    <rect x="82" y="54" width="8" height="8" fill="#E879F9"/>
+    <!-- leg tips -->
+    <rect x="22" y="90" width="8" height="8" fill="#E879F9" opacity="0.85"/>
+    <rect x="98" y="90" width="8" height="8" fill="#E879F9" opacity="0.85"/>
+  </g>
+</svg>

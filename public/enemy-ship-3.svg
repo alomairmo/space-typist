@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 128" width="192" height="128">
+  <defs>
+    <filter id="glow3" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="g"/>
+      <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="core3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FECACA"/>
+      <stop offset="0.5" stop-color="#F87171"/>
+      <stop offset="1" stop-color="#B91C1C"/>
+    </radialGradient>
+  </defs>
+  <!-- mothership: wide saucer, red-magenta glow, menacing core -->
+  <g filter="url(#glow3)">
+    <!-- dome -->
+    <path d="M66 44 Q96 10 126 44 Z" fill="#0A0F1E" stroke="#F87171" stroke-width="4" stroke-linejoin="round"/>
+    <!-- saucer body -->
+    <path d="M16 62 Q96 34 176 62 L168 82 Q96 104 24 82 Z"
+          fill="#0A0F1E" stroke="#E879F9" stroke-width="4" stroke-linejoin="round"/>
+    <!-- menacing core -->
+    <circle cx="96" cy="66" r="14" fill="url(#core3)"/>
+    <circle cx="96" cy="66" r="6" fill="#FEE2E2"/>
+    <!-- running lights -->
+    <circle cx="44" cy="66" r="4" fill="#F87171"/>
+    <circle cx="66" cy="72" r="4" fill="#FBBF24"/>
+    <circle cx="126" cy="72" r="4" fill="#FBBF24"/>
+    <circle cx="148" cy="66" r="4" fill="#F87171"/>
+    <!-- underside spikes -->
+    <path d="M56 90 L62 104 L68 92 Z" fill="#E879F9"/>
+    <path d="M90 98 L96 114 L102 98 Z" fill="#E879F9"/>
+    <path d="M124 92 L130 104 L136 90 Z" fill="#E879F9"/>
+  </g>
+</svg>
