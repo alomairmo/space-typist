@@ -96,7 +96,7 @@
       radial-gradient(ellipse 80% 60% at 80% 100%, rgba(34, 211, 238, 0.1), transparent 60%);
   }
   .stars-fallback {
-    background-image: url("/empty-stars.png");
+    background-image: url("/empty-stars.svg");
     background-repeat: repeat;
     animation: stars-drift 120s linear infinite;
   }
