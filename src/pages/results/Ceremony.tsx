@@ -261,7 +261,7 @@ export default function Ceremony({
           {titleWords.map((w, i) => (
             <span key={i} className="ceremony-word inline-block">
               {w}
-              {i < titleWords.length - 1 ? ' ' : ''}
+              {i < titleWords.length - 1 ? ' ' : ''}
             </span>
           ))}{' '}
           <span aria-hidden="true" className="ceremony-word inline-block">✦</span>
