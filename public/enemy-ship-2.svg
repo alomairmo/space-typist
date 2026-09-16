@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <filter id="glow2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="g"/>
+      <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- elite variant: bulkier body, side cannons, amber cockpit -->
+  <g filter="url(#glow2)">
+    <!-- side cannons -->
+    <rect x="6" y="58" width="14" height="34" rx="3" fill="#0A0F1E" stroke="#E879F9" stroke-width="4"/>
+    <rect x="108" y="58" width="14" height="34" rx="3" fill="#0A0F1E" stroke="#E879F9" stroke-width="4"/>
+    <rect x="10" y="92" width="6" height="10" fill="#E879F9"/>
+    <rect x="112" y="92" width="6" height="10" fill="#E879F9"/>
+    <!-- bulky hull -->
+    <path d="M64 16 L84 28 L84 42 L104 42 L104 66 L96 66 L96 96 L80 96 L80 108 L48 108 L48 96 L32 96 L32 66 L24 66 L24 42 L44 42 L44 28 Z"
+          fill="#0A0F1E" stroke="#E879F9" stroke-width="4" stroke-linejoin="round"/>
+    <!-- armor plates -->
+    <rect x="36" y="70" width="16" height="10" fill="#1A2444" stroke="#E879F9" stroke-width="2"/>
+    <rect x="76" y="70" width="16" height="10" fill="#1A2444" stroke="#E879F9" stroke-width="2"/>
+    <!-- amber cockpit -->
+    <rect x="50" y="46" width="28" height="18" rx="4" fill="#FBBF24"/>
+    <rect x="55" y="50" width="18" height="10" rx="2" fill="#FEF3C7"/>
+    <!-- magenta eyes -->
+    <rect x="38" y="50" width="8" height="8" fill="#E879F9"/>
+    <rect x="82" y="50" width="8" height="8" fill="#E879F9"/>
+  </g>
+</svg>

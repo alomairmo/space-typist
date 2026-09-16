@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <filter id="glowP" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="g"/>
+      <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="engineP" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A5F3FC"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- hero starfighter, sleek dart, cyan neon trim, twin engines -->
+  <g filter="url(#glowP)">
+    <!-- engine flames -->
+    <path d="M56 128 L62 152 L68 128 Z" fill="url(#engineP)"/>
+    <path d="M92 128 L98 152 L104 128 Z" fill="url(#engineP)"/>
+    <!-- wings -->
+    <path d="M46 78 L14 116 L42 112 Z" fill="#0A0F1E" stroke="#22D3EE" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M114 78 L146 116 L118 112 Z" fill="#0A0F1E" stroke="#22D3EE" stroke-width="4" stroke-linejoin="round"/>
+    <!-- fuselage: sleek dart -->
+    <path d="M80 12 L96 64 L96 128 L64 128 L64 64 Z"
+          fill="#0A0F1E" stroke="#22D3EE" stroke-width="4" stroke-linejoin="round"/>
+    <!-- nose tip -->
+    <path d="M80 12 L86 32 L74 32 Z" fill="#22D3EE"/>
+    <!-- cockpit -->
+    <ellipse cx="80" cy="66" rx="9" ry="16" fill="#164E63" stroke="#22D3EE" stroke-width="2.5"/>
+    <ellipse cx="80" cy="60" rx="5" ry="8" fill="#A5F3FC"/>
+    <!-- engine blocks -->
+    <rect x="52" y="112" width="18" height="18" rx="3" fill="#0A0F1E" stroke="#22D3EE" stroke-width="3"/>
+    <rect x="90" y="112" width="18" height="18" rx="3" fill="#0A0F1E" stroke="#22D3EE" stroke-width="3"/>
+    <!-- wing lights -->
+    <circle cx="22" cy="110" r="4" fill="#E879F9"/>
+    <circle cx="138" cy="110" r="4" fill="#E879F9"/>
+  </g>
+</svg>
